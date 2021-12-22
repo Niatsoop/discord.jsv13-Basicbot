@@ -1,0 +1,18 @@
+this bot is extremely bare bones you need to add come commands but the command handler and event handler is full setup and ready to go 
+you need to go to the 
+discord.jsv13guide\src\functions
+then the handleCommands.js folder and change the guild id and bot id to your own ones
+looks like this
+const clientId = '830645636216468'; -the bots id goes here
+const guildId = '79393765754754'; -your server id goes here
+
+you will also need a bot token to use
+you need to copy the test in example.env
+and make a new file called .env and paste it in ther putting your token after where it says token
+you should be ready to go after this you just need to install the node modules listed down here
+
+
+
+npm i discord.js
+npm i dotenv
+npm install @discordjs/rest discord-api-types @discordjs/builders
