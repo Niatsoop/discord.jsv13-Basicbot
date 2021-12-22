@@ -34,5 +34,3 @@ const commandFolders = fs.readdirSync('./src/commands');
 	client.handleCommands(commandFolders, "./src/commands")
 	client.login(process.env.token)
 })();
-//console.log('help')
-//client.login('ODMwODkwNDE4NDI2MjE2NDY4.YHNRAA.5SyFGlWlZqgrPqHNz4SpaNpE0xw')
